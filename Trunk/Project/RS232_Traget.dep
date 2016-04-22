@@ -1,0 +1,212 @@
+Dependencies for Project 'RS232', Target 'Traget': (DO NOT MODIFY !)
+F (..\Core\system_stm32f10x.c)(0x53EC72DA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\FlashAttr.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\program.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Updata.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+F (..\Core\startup_stm32f10x_md.s)(0x53EC7077)(--cpu Cortex-M3 -g --apcs=interwork -I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"--list .\listing\startup_stm32f10x_md.lst --xref -o ..\output\startup_stm32f10x_md.o --depend ..\output\startup_stm32f10x_md.d)
+F (..\Lib_code\SysLib\BestFu.lib)(0x54D8760A)()
+F (..\Lib_code\SysHard\DeviceReset.c)(0x543DEF00)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\devicereset.o --omf_browse ..\output\devicereset.crf --depend ..\output\devicereset.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\DeviceReset.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UnitShare_Attr.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+F (..\Lib_code\SysHard\Flash.c)(0x53EDD578)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\flash.o --omf_browse ..\output\flash.crf --depend ..\output\flash.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\Flash.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+F (..\Lib_code\SysHard\Gpio.c)(0x53F2F59D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\gpio.o --omf_browse ..\output\gpio.crf --depend ..\output\gpio.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+F (..\Lib_code\SysHard\I2C.C)(0x53EDD578)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\i2c.o --omf_browse ..\output\i2c.crf --depend ..\output\i2c.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\I2C.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+F (..\Lib_code\SysHard\Instruct.c)(0x53F2FC35)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\instruct.o --omf_browse ..\output\instruct.crf --depend ..\output\instruct.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\Instruct.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
+F (..\Lib_code\SysHard\Program.c)(0x53EDD578)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\program.o --omf_browse ..\output\program.crf --depend ..\output\program.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\program.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\flash.h)(0x53EDD3C2)
+F (..\Lib_code\SysHard\SI4432.c)(0x54A0C762)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\si4432.o --omf_browse ..\output\si4432.crf --depend ..\output\si4432.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\si4432.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\sys.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\delay.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SPI.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\cmdProcess.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\FIFO.h)(0x53F6A5D8)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\command.h)(0x54D9C0DE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Updata.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\FaultManage.h)(0x5434B47F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\SysTick.h)(0x53EDD48E)
+F (..\Lib_code\SysHard\SPI.c)(0x53EDD372)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\spi.o --omf_browse ..\output\spi.crf --depend ..\output\spi.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\spi.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\sys.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\delay.h)(0x53EDD4B9)
+F (..\Lib_code\SysHard\Sys.c)(0x53EDD372)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\sys.o --omf_browse ..\output\sys.crf --depend ..\output\sys.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+F (..\Lib_code\SysHard\SysHard.c)(0x53EDD7AB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\syshard.o --omf_browse ..\output\syshard.crf --depend ..\output\syshard.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\sys.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\SysTick.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SI4432.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\I2C.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+F (..\Lib_code\SysHard\SysTick.c)(0x53EDD372)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\systick.o --omf_browse ..\output\systick.crf --depend ..\output\systick.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\SysTick.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
+F (..\Lib_code\SysHard\Test.c)(0x53EDD372)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\test.o --omf_browse ..\output\test.crf --depend ..\output\test.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\Test.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\cmdProcess.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\FIFO.h)(0x53F6A5D8)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\command.h)(0x54D9C0DE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\USART.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\delay.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SI4432.h)(0x53EDD39A)
+F (..\Lib_code\SysHard\Usart.c)(0x53F70A06)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\usart.o --omf_browse ..\output\usart.crf --depend ..\output\usart.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\sys.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\usart.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\cmdProcess.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\FIFO.h)(0x53F6A5D8)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\command.h)(0x54D9C0DE)
+F (..\Lib_code\SysHard\WDG.c)(0x53F41681)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\wdg.o --omf_browse ..\output\wdg.crf --depend ..\output\wdg.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\wdg.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+F (..\Lib_code\App\main.c)(0x5493BB46)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\SysHard.h)(0x54A3A90B)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\wdg.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\cmdProcess.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\FIFO.h)(0x53F6A5D8)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\command.h)(0x54D9C0DE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\Instruct.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\DeviceReset.h)(0x53EDD3C2)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\Test.h)(0x53EDD39A)
+F (..\Lib_code\App\UnitCfg.c)(0x5493A368)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\unitcfg.o --omf_browse ..\output\unitcfg.crf --depend ..\output\unitcfg.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\SysExeAttr.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\User\RS232Attr.h)(0x548FEA69)
+F (..\User\USARTx.c)(0x54A3AF6C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\usartx.o --omf_browse ..\output\usartx.crf --depend ..\output\usartx.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\User\USARTx.h)(0x54A372BE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\GPIO.h)(0x53FEFF95)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysHard\inc\Sys.h)(0x53EDD39A)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\stm32f10x.h)(0x53EC692F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\core_cm3.h)(0x4D523B58)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x00000000)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Core\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\fifo.h)(0x53F6A5D8)
+F (..\User\RS232Unit.c)(0x54D979FA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\rs232unit.o --omf_browse ..\output\rs232unit.crf --depend ..\output\rs232unit.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\User\RS232Unit.h)(0x54A0FB3D)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\User\USARTx.h)(0x54A372BE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\delay.h)(0x53EDD4B9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Fifo.h)(0x53F6A5D8)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+F (..\User\RS232Attr.c)(0x54B325DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\Core -I..\Lib_code\SysLib\inc -I..\Lib_code\SysHard\inc -I..\Lib_code\App -I..\User\IR -I..\User\IRDirver -I..\User\ExactDelay -I..\User\Buzzer-I "D:\Program Files\keil472\ARM\RV31\INC"-I "D:\Program Files\keil472\ARM\CMSIS\Include"-I "D:\Program Files\keil472\ARM\Inc\ST\STM32F10x"-o ..\output\rs232attr.o --omf_browse ..\output\rs232attr.crf --depend ..\output\rs232attr.d)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\User\RS232Attr.h)(0x548FEA69)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\BF_type.h)(0x53EDD34E)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\BestFuLib.h)(0x5424BF2F)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\App\UnitCfg.h)(0x53FD8EB9)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\UserData.h)(0x5434B2EE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\User\RS232Unit.h)(0x54A0FB3D)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\User\USARTx.h)(0x54A372BE)
+I (C:\Users\Administrator\Desktop\陈国强\工作交接\通用RS232网关\通用RS232网关原码\Lib_code\SysLib\inc\Thread.h)(0x53EDD48E)
